@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+    double cash = 20;
+    for (int i = 1627; i <= 2022; i++ )
+    {
+        cash = cash + cash * 0.04;
+    }
+    printf("В этом году было бы %f$\n", cash);
+}
